@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+ <TestData Description="" Key="{B3D5AAEA-1B5C-4778-8FC0-8AA4CA2EAA37}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+  <Data>
+   <Extenders>
+    <NodeBitmaps/>
+   </Extenders>
+  </Data>
+  <Children>
+   <Operation Type="{98EACF50-FA7B-4595-8EDC-4C0B21157A52}">
+    <Data BrowserName="edge" Description="Launches the specified browser and opens the specified URL in it.">
+     <CommonData Disabled="True"/>
+     <Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+      <Parameter DefValueType="6" DefValueValue="" DefVarType="8" Name="URL" ValueType="6" ValueValue="http://sb-se-international.northeurope.cloudapp.azure.com:9191/login.php" VarType="8"/>
+      <Parameter DefValueType="1" DefValueValue="-1" DefVarType="3" Name="PageLoadWaitTime" ValueType="1" ValueValue="-1" VarType="3"/>
+     </Parameters>
+    </Data>
+   </Operation>
+   <Operation Type="{98EACF50-FA7B-4595-8EDC-4C0B21157A52}">
+    <Data BrowserName="edge" Description="Launches the specified browser and opens the specified URL in it.">
+     <CommonData Disabled="True"/>
+     <Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+      <Parameter DefValueType="6" DefValueValue="" DefVarType="8" Name="URL" ValueType="6" ValueValue="http://sb-se-international.northeurope.cloudapp.azure.com:9191/login.php" VarType="8"/>
+      <Parameter DefValueType="1" DefValueValue="-1" DefVarType="3" Name="PageLoadWaitTime" ValueType="1" ValueValue="-1" VarType="3"/>
+     </Parameters>
+    </Data>
+   </Operation>
+   <Operation Type="{1B5F17B2-4691-45F4-A91F-F5CFF1E09C4E}">
+    <Data>
+     <CommonData Disabled="True"/>
+     <Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+      <Parameter DefVarType="5" Name="Server URL" ValueType="6" ValueValue="https://eu-mobile-hub.bitbar.com/wd/hub" VarType="8"/>
+      <Parameter DefVarType="5" Name="Tested URL" ValueType="6" ValueValue="http://sb-se-international.northeurope.cloudapp.azure.com:9191/login.php" VarType="8"/>
+      <Parameter DefVarType="5" Name="Capabilities" ValueType="6" ValueValue='{"bitbar_device":"Apple iPad 10.2\" 9th A2602 15.2","deviceName":"Apple iPad 10.2\" 9th A2602 15.2","platformName":"iOS","bitbar_findDevice":"false","automationName":"XCUITest","browserName":"Safari"}' VarType="8"/>
+     </Parameters>
+    </Data>
+   </Operation>
+   <Operation Type="{1B5F17B2-4691-45F4-A91F-F5CFF1E09C4E}">
+    <Data>
+     <CommonData Disabled="True"/>
+     <Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+      <Parameter DefVarType="5" Name="Server URL" ValueType="6" ValueValue="https://eu-mobile-hub.bitbar.com/wd/hub" VarType="8"/>
+      <Parameter DefVarType="5" Name="Tested URL" ValueType="6" ValueValue="http://sb-se-international.northeurope.cloudapp.azure.com:9191/login.php" VarType="8"/>
+      <Parameter DefVarType="5" Name="Capabilities" ValueType="6" ValueValue='{"bitbar_device":"Apple iPad 10.2\" 9th A2602 15.2","deviceName":"Apple iPad 10.2\" 9th A2602 15.2","platformName":"iOS","bitbar_findDevice":"false","automationName":"XCUITest","browserName":"Safari"}' VarType="8"/>
+     </Parameters>
+    </Data>
+   </Operation>
+   <Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+    <Data Action="Position" Initialized="True" InvokeKind="-1">
+     <Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+      <Parameter DefVarType="0" Name="Param1" ValueType="1" ValueValue="270" VarType="3"/>
+      <Parameter DefVarType="0" Name="Param2" ValueType="1" ValueValue="57" VarType="3"/>
+      <Parameter DefVarType="0" Name="Param3" ValueType="1" ValueValue="1440" VarType="3"/>
+      <Parameter DefVarType="0" Name="Param4" ValueType="1" ValueValue="920" VarType="3"/>
+     </Parameters>
+     <ObjectSyntax Code="Aliases.browser.BrowserWindow;" LangId="{90F89436-9452-4F95-9882-6B5210079F13}"/>
+    </Data>
+   </Operation>
+   <Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+    <Data Action="Wait" Description="Waits until the browser loads the page and is ready to accept user input." Initialized="True" InvokeKind="-1">
+     <ObjectSyntax Code="Aliases.browser.pageLogin;" LangId="{90F89436-9452-4F95-9882-6B5210079F13}"/>
+    </Data>
+   </Operation>
+   <Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+    <Data Action="Click" Description="Clicks the '%n' link." Initialized="True" InvokeKind="-1">
+     <ObjectSyntax Code="Aliases.browser.pageLogin.textnodeSignUp.textnodeSignUp2.linkSignUp;" LangId="{90F89436-9452-4F95-9882-6B5210079F13}"/>
+    </Data>
+   </Operation>
+   <Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+    <Data Action="Click" Description="Clicks the '%n' control." Initialized="True" InvokeKind="-1">
+     <ObjectSyntax Code="Aliases.browser.pageLogin.textboxFirstname;" LangId="{90F89436-9452-4F95-9882-6B5210079F13}"/>
+    </Data>
+   </Operation>
+   <Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+    <Data Action="SetText" Description="Sets the text %p1 in the '%n' text editor." Initialized="True" InvokeKind="-1">
+     <Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+      <Parameter DefVarType="0" Name="Param1" ValueType="6" ValueValue="Dermot" VarType="8"/>
+     </Parameters>
+     <ObjectSyntax Code="Aliases.browser.pageLogin.textboxFirstname;" LangId="{90F89436-9452-4F95-9882-6B5210079F13}"/>
+    </Data>
+   </Operation>
+   <Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+    <Data Action="Drag" Description="Drags the '%n' object." Initialized="True" InvokeKind="-1">
+     <Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+      <Parameter DefVarType="0" Name="Param1" ValueType="1" ValueValue="120" VarType="3"/>
+      <Parameter DefVarType="0" Name="Param2" ValueType="1" ValueValue="5" VarType="3"/>
+      <Parameter DefVarType="0" Name="Param3" ValueType="1" ValueValue="13" VarType="3"/>
+      <Parameter DefVarType="0" Name="Param4" ValueType="1" ValueValue="2" VarType="3"/>
+     </Parameters>
+     <ObjectSyntax Code="Aliases.browser.pageLogin.textboxLastname;" LangId="{90F89436-9452-4F95-9882-6B5210079F13}"/>
+    </Data>
+   </Operation>
+   <Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+    <Data Action="SetText" Description="Sets the text %p1 in the '%n' text editor." Initialized="True" InvokeKind="-1">
+     <Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+      <Parameter DefVarType="0" Name="Param1" ValueType="6" ValueValue="Canniffe" VarType="8"/>
+     </Parameters>
+     <ObjectSyntax Code="Aliases.browser.pageLogin.textboxLastname;" LangId="{90F89436-9452-4F95-9882-6B5210079F13}"/>
+    </Data>
+   </Operation>
+   <Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+    <Data Action="Click" Description="Clicks the '%n' control." Initialized="True" InvokeKind="-1">
+     <ObjectSyntax Code="Aliases.browser.pageLogin.emailinputEmail;" LangId="{90F89436-9452-4F95-9882-6B5210079F13}"/>
+    </Data>
+   </Operation>
+   <Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+    <Data Action="Keys" Description="Enters %p1 in the '%n' object." Initialized="True" InvokeKind="-1">
+     <Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+      <Parameter DefVarType="0" Name="Param1" ValueType="6" ValueValue="dermot@smartbear" VarType="8"/>
+     </Parameters>
+     <ObjectSyntax Code="Aliases.browser.pageLogin.emailinputEmail;" LangId="{90F89436-9452-4F95-9882-6B5210079F13}"/>
+    </Data>
+   </Operation>
+   <Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+    <Data Action="Click" Description="Clicks the '%n' control." Initialized="True" InvokeKind="-1">
+     <ObjectSyntax Code="Aliases.browser.pageLogin.passwordboxPassword;" LangId="{90F89436-9452-4F95-9882-6B5210079F13}"/>
+    </Data>
+   </Operation>
+   <Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+    <Data Action="SetText" Description="Sets the text %p1 in the '%n' text editor." Initialized="True" InvokeKind="-1">
+     <Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+      <Parameter DefVarType="0" Name="Param1" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableName="Password1" VariableType="2"/>
+     </Parameters>
+     <ObjectSyntax Code="Aliases.browser.pageLogin.passwordboxPassword;" LangId="{90F89436-9452-4F95-9882-6B5210079F13}"/>
+    </Data>
+   </Operation>
+   <Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+    <Data Action="ClickButton" Description="Clicks the '%n' button." Initialized="True" InvokeKind="-1">
+     <ObjectSyntax Code="Aliases.browser.pageLogin.buttonGetStarted;" LangId="{90F89436-9452-4F95-9882-6B5210079F13}"/>
+    </Data>
+   </Operation>
+   <Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+    <Data Action="Wait" Description="Waits until the browser loads the page and is ready to accept user input." Initialized="True" InvokeKind="-1">
+     <ObjectSyntax Code="Aliases.browser.pageLogin;" LangId="{90F89436-9452-4F95-9882-6B5210079F13}"/>
+    </Data>
+   </Operation>
+   <Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+    <Data Action="Click" Description="Clicks the '%n' link." Initialized="True" InvokeKind="-1">
+     <ObjectSyntax Code="Aliases.browser.pageLogin.textnodeSignUp.linkLogIn;" LangId="{90F89436-9452-4F95-9882-6B5210079F13}"/>
+    </Data>
+   </Operation>
+   <Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+    <Data Action="Click" Description="Clicks the '%n' control." Initialized="True" InvokeKind="-1">
+     <ObjectSyntax Code="Aliases.browser.pageLogin.textboxLoginEmail;" LangId="{90F89436-9452-4F95-9882-6B5210079F13}"/>
+    </Data>
+   </Operation>
+   <Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+    <Data Action="Keys" Description="Enters %p1 in the '%n' object." Initialized="True" InvokeKind="-1">
+     <Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+      <Parameter DefVarType="0" Name="Param1" ValueType="6" ValueValue="dermot@smartbear" VarType="8"/>
+     </Parameters>
+     <ObjectSyntax Code="Aliases.browser.pageLogin.textboxLoginEmail;" LangId="{90F89436-9452-4F95-9882-6B5210079F13}"/>
+    </Data>
+   </Operation>
+   <Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+    <Data Action="Click" Description="Clicks the '%n' control." Initialized="True" InvokeKind="-1">
+     <ObjectSyntax Code="Aliases.browser.pageLogin.passwordboxLoginPassword;" LangId="{90F89436-9452-4F95-9882-6B5210079F13}"/>
+    </Data>
+   </Operation>
+   <Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+    <Data Action="SetText" Description="Sets the text %p1 in the '%n' text editor." Initialized="True" InvokeKind="-1">
+     <Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+      <Parameter DefVarType="0" Name="Param1" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableName="Password1" VariableType="2"/>
+     </Parameters>
+     <ObjectSyntax Code="Aliases.browser.pageLogin.passwordboxLoginPassword;" LangId="{90F89436-9452-4F95-9882-6B5210079F13}"/>
+    </Data>
+   </Operation>
+   <Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+    <Data Action="Keys" Description="Enters %p1 in the '%n' object." Initialized="True" InvokeKind="-1">
+     <Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+      <Parameter DefVarType="0" Name="Param1" ValueType="6" ValueValue="[Enter]" VarType="8"/>
+     </Parameters>
+     <ObjectSyntax Code="Aliases.browser.pageLogin.passwordboxLoginPassword;" LangId="{90F89436-9452-4F95-9882-6B5210079F13}"/>
+    </Data>
+   </Operation>
+   <Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+    <Data Action="Wait" Description="Waits until the browser loads the page and is ready to accept user input." Initialized="True" InvokeKind="-1">
+     <ObjectSyntax Code="Aliases.browser.pageLogin;" LangId="{90F89436-9452-4F95-9882-6B5210079F13}"/>
+    </Data>
+   </Operation>
+   <Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+    <Data Action="Click" Description="Clicks the '%n' control." Initialized="True" InvokeKind="-1">
+     <ObjectSyntax Code="Aliases.browser.pageLogin.textboxLoginEmail;" LangId="{90F89436-9452-4F95-9882-6B5210079F13}"/>
+    </Data>
+   </Operation>
+   <Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+    <Data Action="Keys" Description="Enters %p1 in the '%n' object." Initialized="True" InvokeKind="-1">
+     <Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+      <Parameter DefVarType="0" Name="Param1" ValueType="6" ValueValue="dermot@smartbear" VarType="8"/>
+     </Parameters>
+     <ObjectSyntax Code="Aliases.browser.pageLogin.textboxLoginEmail;" LangId="{90F89436-9452-4F95-9882-6B5210079F13}"/>
+    </Data>
+   </Operation>
+   <Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+    <Data Action="Click" Description="Clicks the '%n' control." Initialized="True" InvokeKind="-1">
+     <ObjectSyntax Code="Aliases.browser.pageLogin.passwordboxLoginPassword;" LangId="{90F89436-9452-4F95-9882-6B5210079F13}"/>
+    </Data>
+   </Operation>
+   <Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+    <Data Action="ClickR" Description="Clicks the '%n' object with the right mouse button." Initialized="True" InvokeKind="-1">
+     <Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+      <Parameter DefVarType="0" Name="Param1" ValueType="1" ValueValue="119" VarType="3"/>
+      <Parameter DefVarType="0" Name="Param2" ValueType="1" ValueValue="17" VarType="3"/>
+     </Parameters>
+     <ObjectSyntax Code="Aliases.browser.pageLogin.passwordboxLoginPassword;" LangId="{90F89436-9452-4F95-9882-6B5210079F13}"/>
+    </Data>
+   </Operation>
+   <Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+    <Data Action="Click" Description="Clicks the '%n' control." Initialized="True" InvokeKind="-1">
+     <ObjectSyntax Code="Aliases.browser.pageLogin.passwordboxLoginPassword;" LangId="{90F89436-9452-4F95-9882-6B5210079F13}"/>
+    </Data>
+   </Operation>
+   <Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+    <Data Action="ClickR" Description="Clicks the '%n' object with the right mouse button." Initialized="True" InvokeKind="-1">
+     <Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+      <Parameter DefVarType="0" Name="Param1" ValueType="1" ValueValue="82" VarType="3"/>
+      <Parameter DefVarType="0" Name="Param2" ValueType="1" ValueValue="16" VarType="3"/>
+     </Parameters>
+     <ObjectSyntax Code="Aliases.browser.pageLogin.passwordboxLoginPassword;" LangId="{90F89436-9452-4F95-9882-6B5210079F13}"/>
+    </Data>
+   </Operation>
+   <Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+    <Data Action="Click" Description="Clicks the '%n' object." Initialized="True" InvokeKind="-1">
+     <Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+      <Parameter DefVarType="0" Name="Param1" ValueType="1" ValueValue="513" VarType="3"/>
+      <Parameter DefVarType="0" Name="Param2" ValueType="1" ValueValue="25" VarType="3"/>
+     </Parameters>
+     <ObjectSyntax Code="Aliases.browser.BrowserWindow;" LangId="{90F89436-9452-4F95-9882-6B5210079F13}"/>
+    </Data>
+   </Operation>
+  </Children>
+ </TestData>
+ <Parameters Key="{6AC26515-7556-4B09-BEA2-016E8ED13AC1}"/>
+</Root>
